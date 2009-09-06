@@ -1,0 +1,4 @@
+Ejemplo de integracion con oAuth/Twitter
+
+- Use twitter-auth (https://github.com/mbleigh/twitter-auth/tree) en lugar de authlogic/authlogic-oauth, creo que es mucho mas sencillo y se ajusta a los que necesitamos.
+- Es necesario reemplazar en /config/twitter_auth.yml los valores de oauth_consumer_key y oauth_consumer_secret con los que Twitter genere cuando se registre la app de Pio.la en Twitter.
